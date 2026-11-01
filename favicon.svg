@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64">
+  <title>SOUNDWAVE</title>
+  <rect width="64" height="64" rx="15" fill="#d5ff65" />
+  <path
+    d="M13 27V37M21 20V44M29 13V51M37 21V43M45 17V47M53 27V37"
+    stroke="#0b0d0f"
+    stroke-width="4"
+    stroke-linecap="round"
+  />
+</svg>

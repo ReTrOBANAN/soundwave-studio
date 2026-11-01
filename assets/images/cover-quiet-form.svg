@@ -1,0 +1,82 @@
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  width="800"
+  height="800"
+  viewBox="0 0 800 800"
+  role="img"
+  aria-labelledby="title desc"
+>
+  <title id="title">QUIET FORM — Afterlight</title>
+  <desc id="desc">
+    Авторская обложка: графитовая сфера и ритмичные диагональные линии на тёплом светлом фоне.
+  </desc>
+  <defs>
+    <clipPath id="disc">
+      <ellipse cx="403" cy="445" rx="310" ry="201" transform="rotate(-32 403 445)" />
+    </clipPath>
+    <linearGradient id="discShade" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#444849" />
+      <stop offset=".5" stop-color="#111617" />
+      <stop offset="1" stop-color="#080b0c" />
+    </linearGradient>
+  </defs>
+  <rect width="800" height="800" fill="#deded3" />
+  <circle cx="547" cy="282" r="104" fill="#d5ff65" />
+  <ellipse
+    cx="403"
+    cy="445"
+    rx="310"
+    ry="201"
+    transform="rotate(-32 403 445)"
+    fill="url(#discShade)"
+  />
+  <g clip-path="url(#disc)" stroke="#b7bcb1" stroke-width="1.5" opacity=".5" fill="none">
+    <path d="M-230 240L150 760" />
+    <path d="M-208 240L172 760" />
+    <path d="M-186 240L194 760" />
+    <path d="M-164 240L216 760" />
+    <path d="M-142 240L238 760" />
+    <path d="M-120 240L260 760" />
+    <path d="M-98 240L282 760" />
+    <path d="M-76 240L304 760" />
+    <path d="M-54 240L326 760" />
+    <path d="M-32 240L348 760" />
+    <path d="M-10 240L370 760" />
+    <path d="M12 240L392 760" />
+    <path d="M34 240L414 760" />
+    <path d="M56 240L436 760" />
+    <path d="M78 240L458 760" />
+    <path d="M100 240L480 760" />
+    <path d="M122 240L502 760" />
+    <path d="M144 240L524 760" />
+    <path d="M166 240L546 760" />
+    <path d="M188 240L568 760" />
+    <path d="M210 240L590 760" />
+    <path d="M232 240L612 760" />
+    <path d="M254 240L634 760" />
+    <path d="M276 240L656 760" />
+    <path d="M298 240L678 760" />
+    <path d="M320 240L700 760" />
+    <path d="M342 240L722 760" />
+    <path d="M364 240L744 760" />
+    <path d="M386 240L766 760" />
+    <path d="M408 240L788 760" />
+    <path d="M430 240L810 760" />
+    <path d="M452 240L832 760" />
+    <path d="M474 240L854 760" />
+    <path d="M496 240L876 760" />
+    <path d="M518 240L898 760" />
+    <path d="M540 240L920 760" />
+  </g>
+  <ellipse cx="403" cy="445" rx="40" ry="26" transform="rotate(-32 403 445)" fill="#d5ff65" />
+  <g font-family="Arial, Helvetica, sans-serif" fill="#1b2021">
+    <text x="47" y="91" font-size="52" letter-spacing="-2.5">QUIET FORM</text>
+    <text x="50" y="126" font-size="13" letter-spacing="4">A F T E R L I G H T</text>
+    <text x="748" y="62" font-size="12" text-anchor="end" letter-spacing="2">02</text>
+    <text x="50" y="746" font-size="11" letter-spacing="2">SOUNDWAVE SELECTED</text>
+    <text x="748" y="746" font-size="11" text-anchor="end" letter-spacing="2">
+      ELECTRONIC / 2026
+    </text>
+  </g>
+  <path d="M50 707H750" stroke="#1b2021" stroke-width="1" opacity=".35" />
+</svg>

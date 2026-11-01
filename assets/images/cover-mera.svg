@@ -1,0 +1,54 @@
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  width="800"
+  height="800"
+  viewBox="0 0 800 800"
+  role="img"
+  aria-labelledby="title desc"
+>
+  <title id="title">MÉRA — Между строк</title>
+  <desc id="desc">
+    Авторская обложка: медные орбиты образуют текучую скульптуру на терракотовом фоне.
+  </desc>
+  <defs>
+    <radialGradient id="bg" cx="70%" cy="30%" r="85%">
+      <stop stop-color="#a65037" />
+      <stop offset="1" stop-color="#5a251f" />
+    </radialGradient>
+  </defs>
+  <rect width="800" height="800" fill="url(#bg)" />
+  <g fill="none" stroke="#e7b990" stroke-width="1.7" opacity=".78">
+    <ellipse cx="400" cy="422" rx="90.0" ry="190.0" transform="rotate(-32.0 400 422)" />
+    <ellipse cx="400" cy="422" rx="99.4" ry="187.3" transform="rotate(-30.3 400 422)" />
+    <ellipse cx="400" cy="422" rx="108.8" ry="184.6" transform="rotate(-28.6 400 422)" />
+    <ellipse cx="400" cy="422" rx="118.2" ry="181.9" transform="rotate(-26.9 400 422)" />
+    <ellipse cx="400" cy="422" rx="127.6" ry="179.2" transform="rotate(-25.2 400 422)" />
+    <ellipse cx="400" cy="422" rx="137.0" ry="176.5" transform="rotate(-23.5 400 422)" />
+    <ellipse cx="400" cy="422" rx="146.4" ry="173.8" transform="rotate(-21.8 400 422)" />
+    <ellipse cx="400" cy="422" rx="155.8" ry="171.1" transform="rotate(-20.1 400 422)" />
+    <ellipse cx="400" cy="422" rx="165.2" ry="168.4" transform="rotate(-18.4 400 422)" />
+    <ellipse cx="400" cy="422" rx="174.6" ry="165.7" transform="rotate(-16.7 400 422)" />
+    <ellipse cx="400" cy="422" rx="184.0" ry="163.0" transform="rotate(-15.0 400 422)" />
+    <ellipse cx="400" cy="422" rx="193.4" ry="160.3" transform="rotate(-13.3 400 422)" />
+    <ellipse cx="400" cy="422" rx="202.8" ry="157.6" transform="rotate(-11.6 400 422)" />
+    <ellipse cx="400" cy="422" rx="212.2" ry="154.9" transform="rotate(-9.9 400 422)" />
+    <ellipse cx="400" cy="422" rx="221.6" ry="152.2" transform="rotate(-8.2 400 422)" />
+    <ellipse cx="400" cy="422" rx="231.0" ry="149.5" transform="rotate(-6.5 400 422)" />
+    <ellipse cx="400" cy="422" rx="240.4" ry="146.8" transform="rotate(-4.8 400 422)" />
+    <ellipse cx="400" cy="422" rx="249.8" ry="144.1" transform="rotate(-3.1 400 422)" />
+    <ellipse cx="400" cy="422" rx="259.2" ry="141.4" transform="rotate(-1.4 400 422)" />
+    <ellipse cx="400" cy="422" rx="268.6" ry="138.7" transform="rotate(0.3 400 422)" />
+    <ellipse cx="400" cy="422" rx="278.0" ry="136.0" transform="rotate(2.0 400 422)" />
+    <ellipse cx="400" cy="422" rx="287.4" ry="133.3" transform="rotate(3.7 400 422)" />
+    <ellipse cx="400" cy="422" rx="296.8" ry="130.6" transform="rotate(5.4 400 422)" />
+  </g>
+  <g font-family="Arial, Helvetica, sans-serif" fill="#f2ddc4">
+    <text x="47" y="111" font-size="77" letter-spacing="-3">MÉRA</text>
+    <text x="50" y="144" font-size="13" letter-spacing="3">МЕЖДУ СТРОК</text>
+    <text x="748" y="66" font-size="12" text-anchor="end" letter-spacing="2">01 / INDIЕ POP</text>
+    <text x="50" y="747" font-size="11" letter-spacing="2">SOUNDWAVE SELECTED</text>
+    <text x="748" y="747" font-size="11" text-anchor="end" letter-spacing="2">CONCEPT / 2026</text>
+  </g>
+  <path d="M50 707H750" stroke="#e7b990" stroke-width="1" opacity=".4" />
+  <circle cx="745" cy="133" r="6" fill="#e7b990" />
+</svg>

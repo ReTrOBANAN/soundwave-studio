@@ -1,0 +1,997 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#0B0D0F" />
+    <title>SOUNDWAVE Studio — звук с твоим характером</title>
+    <meta
+      name="description"
+      content="SOUNDWAVE Studio — концепт студии звукозаписи и музыкального продакшена. Запись, сведение, мастеринг и поиск твоего собственного звучания."
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:locale" content="ru_RU" />
+    <meta property="og:title" content="SOUNDWAVE Studio — звук с твоим характером" />
+    <meta
+      property="og:description"
+      content="От первой идеи до финального мастера. Концептуальный проект студии звукозаписи."
+    />
+    <meta property="og:image" content="assets/images/og-cover.png" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <link rel="icon" href="favicon.svg" type="image/svg+xml" />
+    <link
+      rel="preload"
+      href="assets/fonts/manrope-cyrillic.woff2"
+      as="font"
+      type="font/woff2"
+      crossorigin
+    />
+    <link rel="preload" href="assets/images/hero-studio.webp" as="image" fetchpriority="high" />
+    <script>
+      document.documentElement.classList.add('js');
+    </script>
+    <link rel="stylesheet" href="css/style.css" />
+    <script src="js/script.js" defer></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Перейти к содержимому</a>
+    <header class="site-header" id="site-header">
+      <div class="header-inner container">
+        <a class="logo" href="#top" aria-label="SOUNDWAVE Studio — на главную">
+          <svg
+            class="brand-mark"
+            width="29"
+            height="30"
+            viewBox="0 0 29 30"
+            fill="none"
+            aria-hidden="true"
+          >
+            <path
+              d="M2 12v6M8 6v18M14.5 1v28M21 7v16M27 12v6"
+              stroke="currentColor"
+              stroke-width="3"
+            />
+          </svg>
+          <span>SOUNDWAVE<small>RECORDING STUDIO</small></span>
+        </a>
+        <nav class="desktop-nav" aria-label="Основная навигация">
+          <a href="#services" data-nav-link>Услуги</a>
+          <a href="#works" data-nav-link>Работы</a>
+          <a href="#studio" data-nav-link>Студия</a>
+          <a href="#pricing" data-nav-link>Цены</a>
+          <a href="#contact" data-nav-link>Контакты</a>
+        </nav>
+        <a href="#contact" class="header-cta">
+          Обсудить проект
+          <svg
+            class="button-icon"
+            width="22"
+            height="22"
+            viewBox="0 0 24 24"
+            fill="none"
+            aria-hidden="true"
+            focusable="false"
+          >
+            <path
+              d="M5 19 19 5M5 5h14v14"
+              stroke="currentColor"
+              stroke-width="1.5"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+          </svg>
+        </a>
+        <button
+          class="menu-toggle"
+          id="menu-toggle"
+          type="button"
+          aria-expanded="false"
+          aria-controls="mobile-menu"
+          aria-label="Открыть меню"
+        >
+          <span></span><span></span>
+        </button>
+      </div>
+      <nav class="mobile-menu" id="mobile-menu" aria-label="Мобильная навигация" hidden>
+        <div class="mobile-menu__label eyebrow">Найди своё звучание</div>
+        <a href="#services"><span>01</span> Услуги <i aria-hidden="true">↗</i></a>
+        <a href="#works"><span>02</span> Работы <i aria-hidden="true">↗</i></a>
+        <a href="#studio"><span>03</span> Студия <i aria-hidden="true">↗</i></a>
+        <a href="#pricing"><span>04</span> Цены <i aria-hidden="true">↗</i></a>
+        <a href="#contact"><span>05</span> Контакты <i aria-hidden="true">↗</i></a>
+      </nav>
+    </header>
+
+    <main id="main">
+      <section class="hero" id="top" aria-labelledby="hero-title">
+        <div class="hero-photo">
+          <img
+            src="assets/images/hero-studio.webp"
+            width="1920"
+            height="1280"
+            alt="Атмосферная студия звукозаписи с большой микшерной консолью"
+            fetchpriority="high"
+          />
+          <div class="hero-photo__shade"></div>
+        </div>
+        <div class="container hero-inner">
+          <div class="hero-eyebrow">
+            <span class="eyebrow"
+              ><span class="status-dot"></span> Независимый звук. Твой характер.</span
+            >
+          </div>
+          <h1 id="hero-title">
+            Звук с твоим<br /><span>характером<span class="lime">.</span></span>
+          </h1>
+          <div class="hero-copy">
+            <p>
+              От первой идеи до финального мастера.<br />Создаём звучание, в котором<br
+                class="desktop-break"
+              />
+              слышен твой характер.
+            </p>
+            <div class="hero-actions">
+              <a class="button button--lime" href="#contact">
+                Записаться в студию
+                <svg
+                  class="button-icon"
+                  width="22"
+                  height="22"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  aria-hidden="true"
+                  focusable="false"
+                >
+                  <path
+                    d="M5 19 19 5M5 5h14v14"
+                    stroke="currentColor"
+                    stroke-width="1.5"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+              </a>
+              <a class="text-link" href="#works">
+                Посмотреть работы <span aria-hidden="true">↗</span>
+              </a>
+            </div>
+          </div>
+          <div class="hero-bottom">
+            <div class="hero-signal" aria-hidden="true">
+              <span></span><span></span><span></span><span></span><span></span><span></span
+              ><span></span><span></span><span></span><span></span><span></span><span></span
+              ><span></span><span></span><span></span><span></span><span></span><span></span
+              ><span></span><span></span><span></span><span></span><span></span><span></span
+              ><span></span><span></span><span></span><span></span><span></span>
+            </div>
+            <span class="hero-footnote">Место, где идеи обретают форму</span>
+          </div>
+        </div>
+      </section>
+
+      <div class="discipline-strip" aria-label="Направления работы">
+        <div class="container">
+          <span>ЗАПИСЬ</span><span class="strip-star" aria-hidden="true">✳</span
+          ><span>СВЕДЕНИЕ</span><span class="strip-star" aria-hidden="true">✳</span
+          ><span>МАСТЕРИНГ</span><span class="strip-star" aria-hidden="true">✳</span
+          ><span>ПРОДАКШЕН</span><span class="strip-star" aria-hidden="true">✳</span
+          ><span class="strip-final">ТВОЁ ЗВУЧАНИЕ</span>
+        </div>
+      </div>
+
+      <section class="section services container" id="services" aria-labelledby="services-title">
+        <div class="section-heading" data-reveal>
+          <div>
+            <p class="eyebrow section-kicker">
+              <span class="section-number">01 /</span> ЧТО МЫ ДЕЛАЕМ
+            </p>
+            <h2 id="services-title">От идеи<br />до звучания<span class="lime">.</span></h2>
+          </div>
+          <p class="section-intro">
+            Хорошая музыка начинается с тебя.<br />Мы помогаем ей зазвучать —<br />по-настоящему.
+          </p>
+        </div>
+        <div class="service-list">
+          <div class="service-row" data-reveal>
+            <span class="service-number">01</span>
+            <div class="service-name">
+              <h3>Запись</h3>
+              <span>Вокал и инструменты</span>
+            </div>
+            <p>Живые эмоции, нюансы голоса и важные дубли. В темпе, комфортном для тебя.</p>
+            <svg
+              class="service-art"
+              width="90"
+              height="54"
+              viewBox="0 0 90 54"
+              fill="none"
+              aria-hidden="true"
+            >
+              <path
+                d="M6 23v8m8-15v22m8-28v34m8-40v46m8-33v20m8-27v34m8-39v44m8-32v20m8-28v36m8-24v12m8-17v22"
+                stroke="currentColor"
+                stroke-width="2"
+              />
+            </svg>
+          </div>
+          <div class="service-row" data-reveal>
+            <span class="service-number">02</span>
+            <div class="service-name">
+              <h3>Сведение</h3>
+              <span>Баланс и глубина</span>
+            </div>
+            <p>
+              Собираем отдельные дорожки в цельное звучание. Чтобы каждая деталь была на своём
+              месте.
+            </p>
+            <svg
+              class="service-art"
+              width="90"
+              height="54"
+              viewBox="0 0 90 54"
+              fill="none"
+              aria-hidden="true"
+            >
+              <path d="M15 4v46M45 4v46M75 4v46" stroke="currentColor" />
+              <path d="M8 17h14M38 35h14M68 23h14" stroke="currentColor" stroke-width="5" />
+            </svg>
+          </div>
+          <div class="service-row" data-reveal>
+            <span class="service-number">03</span>
+            <div class="service-name">
+              <h3>Мастеринг</h3>
+              <span>Последний штрих</span>
+            </div>
+            <p>
+              Создаем финальное, цельное, мощное звучание. Подготавливаем музыку к встрече со
+              слушателем.
+            </p>
+            <svg
+              class="service-art"
+              width="90"
+              height="54"
+              viewBox="0 0 90 54"
+              fill="none"
+              aria-hidden="true"
+            >
+              <circle cx="45" cy="27" r="23" stroke="currentColor" />
+              <circle cx="45" cy="27" r="16" stroke="currentColor" />
+              <circle cx="45" cy="27" r="9" stroke="currentColor" />
+              <circle cx="45" cy="27" r="2" fill="currentColor" />
+            </svg>
+          </div>
+          <div class="service-row" data-reveal>
+            <span class="service-number">04</span>
+            <div class="service-name">
+              <h3>Продакшен</h3>
+              <span>От демо до релиза</span>
+            </div>
+            <p>
+              Ищем характер песни: от первого мотива и аранжировки до её собственного звукового
+              мира.
+            </p>
+            <svg
+              class="service-art"
+              width="90"
+              height="54"
+              viewBox="0 0 90 54"
+              fill="none"
+              aria-hidden="true"
+            >
+              <path
+                d="M2 27h13l8-17 15 34 13-34 13 34 11-17h13"
+                stroke="currentColor"
+                stroke-width="1.5"
+              />
+            </svg>
+          </div>
+        </div>
+      </section>
+
+      <section class="section works" id="works" aria-labelledby="works-title">
+        <div class="container">
+          <div class="section-heading" data-reveal>
+            <div>
+              <p class="eyebrow section-kicker">
+                <span class="section-number">02 /</span> SELECTED PROJECTS
+              </p>
+              <h2 id="works-title">Музыка говорит<br />за себя<span class="lime">.</span></h2>
+            </div>
+            <p class="section-intro">Разные артисты. Разные миры. <br />Один подход.</p>
+          </div>
+          <div class="project-grid">
+            <button
+              class="project-card"
+              type="button"
+              data-project="0"
+              aria-label="Открыть визуальный кейс MÉRA — Между строк"
+              data-reveal
+            >
+              <span class="project-image">
+                <img
+                  src="assets/images/cover-mera.svg"
+                  alt="Оригинальная обложка Между строк в медных оттенках"
+                  width="800"
+                  height="800"
+                  loading="lazy"
+                />
+                <span class="project-open" aria-hidden="true">
+                  <svg
+                    class="project-open__icon"
+                    width="22"
+                    height="22"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    focusable="false"
+                  >
+                    <path
+                      d="M5 19 19 5M5 5h14v14"
+                      stroke="currentColor"
+                      stroke-width="1.5"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                  </svg>
+                </span>
+              </span>
+              <span class="project-meta">
+                <span><strong>MÉRA</strong><span>Между строк</span></span
+                ><span class="project-year">2026</span>
+              </span>
+              <span class="project-role">
+                <span class="project-category">INDIE POP</span> · Продакшен / Сведение / Мастеринг
+              </span>
+            </button>
+            <button
+              class="project-card"
+              type="button"
+              data-project="1"
+              aria-label="Открыть визуальный кейс QUIET FORM — Afterlight"
+              data-reveal
+            >
+              <span class="project-image">
+                <img
+                  src="assets/images/cover-quiet-form.svg"
+                  alt="Графическая обложка Afterlight в светлых и графитовых тонах"
+                  width="800"
+                  height="800"
+                  loading="lazy"
+                />
+                <span class="project-open" aria-hidden="true">
+                  <svg
+                    class="project-open__icon"
+                    width="22"
+                    height="22"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    focusable="false"
+                  >
+                    <path
+                      d="M5 19 19 5M5 5h14v14"
+                      stroke="currentColor"
+                      stroke-width="1.5"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                  </svg>
+                </span>
+              </span>
+              <span class="project-meta">
+                <span><strong>QUIET FORM</strong><span>Afterlight</span></span
+                ><span class="project-year">2026</span>
+              </span>
+              <span class="project-role">
+                <span class="project-category">ELECTRONIC</span> · Сведение / Мастеринг
+              </span>
+            </button>
+            <button
+              class="project-card"
+              type="button"
+              data-project="2"
+              aria-label="Открыть визуальный кейс ПОЛЮС — Тёплый воздух"
+              data-reveal
+            >
+              <span class="project-image">
+                <img
+                  src="assets/images/cover-polyus.svg"
+                  alt="Архитектурная абстракция на обложке Тёплый воздух"
+                  width="800"
+                  height="800"
+                  loading="lazy"
+                />
+                <span class="project-open" aria-hidden="true">
+                  <svg
+                    class="project-open__icon"
+                    width="22"
+                    height="22"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    focusable="false"
+                  >
+                    <path
+                      d="M5 19 19 5M5 5h14v14"
+                      stroke="currentColor"
+                      stroke-width="1.5"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                  </svg>
+                </span>
+              </span>
+              <span class="project-meta">
+                <span><strong>ПОЛЮС</strong><span>Тёплый воздух</span></span
+                ><span class="project-year">2026</span>
+              </span>
+              <span class="project-role">
+                <span class="project-category">ALTERNATIVE</span> · Запись / Продакшен / Сведение
+              </span>
+            </button>
+          </div>
+        </div>
+      </section>
+
+      <section class="section philosophy container" aria-labelledby="philosophy-title">
+        <div class="philosophy-photo" data-reveal>
+          <img
+            src="assets/images/studio-room.webp"
+            width="1200"
+            height="800"
+            alt="Рабочее пространство студии с мониторами и музыкальным оборудованием"
+            loading="lazy"
+          />
+          <div class="photo-caption">
+            <span>SOUND IS A FEELING</span>
+          </div>
+        </div>
+        <div class="philosophy-copy" data-reveal>
+          <p class="eyebrow section-kicker">
+            <span class="section-number">03 /</span> НАША ФИЛОСОФИЯ
+          </p>
+          <h2 id="philosophy-title">
+            Не просто запись.<br />Твоё звучание<span class="lime">.</span>
+          </h2>
+          <p class="philosophy-lead">
+            Нам интересно не то, сколько у тебя сейчас прослушиваний.<br />Нам интересно, как
+            звучишь именно ты.
+          </p>
+          <p class="muted">
+            В основе SOUNDWAVE — простая идея: у каждой песни есть свой характер. Задача студии —
+            услышать его и довести до релиза.
+          </p>
+          <div class="principles">
+            <div>
+              <span>01</span>
+              <h3>Внимание к тебе</h3>
+              <p>Сначала слушаем идею.<br />Потом включаем запись.</p>
+            </div>
+            <div>
+              <span>02</span>
+              <h3>Смысл в деталях</h3>
+              <p>Работаем со звучанием,<br />сохраняя живую эмоцию.</p>
+            </div>
+            <div>
+              <span>03</span>
+              <h3>Технологии для музыки</h3>
+              <p>Инструменты помогают<br />идее, а не затемняют её.</p>
+            </div>
+            <div>
+              <span>04</span>
+              <h3>Свобода пробовать</h3>
+              <p>Спокойная атмосфера<br />для смелых решений.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="process section" aria-labelledby="process-title">
+        <div class="container">
+          <div class="section-heading" data-reveal>
+            <div>
+              <p class="eyebrow section-kicker">
+                <span class="section-number">04 /</span> КАК ЭТО ПРОИСХОДИТ
+              </p>
+              <h2 id="process-title">От первого демо<br />до релиза<span class="lime">.</span></h2>
+            </div>
+            <p class="section-intro">
+              Понятный процесс.<br />Место для эксперимента на каждом этапе.
+            </p>
+          </div>
+          <ol class="process-steps">
+            <li data-reveal>
+              <span class="process-number">01</span>
+              <h3>Знакомимся</h3>
+              <p>Слушаем демо, обсуждаем идею и референсы. Определяем задачи и направление.</p>
+              <span class="process-label">ИДЕЯ И ДИАЛОГ</span>
+            </li>
+            <li data-reveal>
+              <span class="process-number">02</span>
+              <h3>Записываем</h3>
+              <p>
+                Готовим материал и находим тот самый дубль. Ловим настроение, сохраняем характер.
+              </p>
+              <span class="process-label">ПОДГОТОВКА И ЗАПИСЬ</span>
+            </li>
+            <li data-reveal>
+              <span class="process-number">03</span>
+              <h3>Создаём звучание</h3>
+              <p>Работаем над аранжировкой, фактурой и балансом. Обсуждаем версии и правки.</p>
+              <span class="process-label">ПРОДАКШЕН И СВЕДЕНИЕ</span>
+            </li>
+            <li data-reveal>
+              <span class="process-number">04</span>
+              <h3>Готовим к релизу</h3>
+              <p>Доводим детали и делаем финальный мастер. Твоя музыка готова покорять чарты.</p>
+              <span class="process-label">ФИНАЛЬНЫЙ МАСТЕР</span>
+            </li>
+          </ol>
+        </div>
+      </section>
+
+      <section class="section studio container" id="studio" aria-labelledby="studio-title">
+        <div class="section-heading" data-reveal>
+          <div>
+            <p class="eyebrow section-kicker">
+              <span class="section-number">05 /</span> ВНУТРИ SOUNDWAVE
+            </p>
+            <h2 id="studio-title">Место для<br />твоей музыки<span class="lime">.</span></h2>
+          </div>
+          <p class="section-intro">
+            Чуть тише внешнего мира.<br />Чуть ближе к тому, что внутри тебя.<span
+              class="demo-note"
+            ></span>
+          </p>
+        </div>
+        <div class="studio-gallery">
+          <button
+            class="gallery-shot gallery-shot--wide"
+            data-gallery="0"
+            data-caption="Контрольная комната — пространство для поиска звука"
+            type="button"
+            aria-label="Увеличить фотографию контрольной комнаты"
+            data-reveal
+          >
+            <img
+              src="assets/images/hero-studio.webp"
+              alt="Микшерная консоль в атмосферной контрольной комнате"
+              width="1920"
+              height="1280"
+              loading="lazy"
+            />
+            <span class="gallery-caption">
+              <span>01 / CONTROL ROOM</span><span aria-hidden="true">↗</span>
+            </span>
+          </button>
+          <button
+            class="gallery-shot gallery-shot--portrait"
+            data-gallery="1"
+            data-caption="Микрофон для проникновенных песен"
+            type="button"
+            aria-label="Увеличить фотографию студийного микрофона"
+            data-reveal
+          >
+            <img
+              src="assets/images/studio-microphone.webp"
+              alt="Крупный план студийного микрофона"
+              width="900"
+              height="1200"
+              loading="lazy"
+            />
+            <span class="gallery-caption">
+              <span>02 / В ДЕТАЛЯХ</span><span aria-hidden="true">↗</span>
+            </span>
+          </button>
+          <div class="gallery-text" data-reveal>
+            <svg width="66" height="66" viewBox="0 0 66 66" fill="none" aria-hidden="true">
+              <path
+                d="M33 0v66M0 33h66M9.7 9.7l46.6 46.6M9.7 56.3L56.3 9.7"
+                stroke="currentColor"
+                stroke-width="2"
+              />
+            </svg>
+            <p>Всё начинается<br />с умения услышать эмоцию.</p>
+            <span class="eyebrow">LESS NOISE. MORE MUSIC.</span>
+          </div>
+          <button
+            class="gallery-shot gallery-shot--detail"
+            data-gallery="2"
+            data-caption="Рабочее пространство — от первого аккорда до финальной точки"
+            type="button"
+            aria-label="Увеличить фотографию рабочего пространства"
+            data-reveal
+          >
+            <img
+              src="assets/images/studio-room.webp"
+              alt="Мониторы и оборудование в рабочем пространстве продюсера"
+              width="1200"
+              height="800"
+              loading="lazy"
+            />
+            <span class="gallery-caption">
+              <span>03 / THE WORKSPACE</span><span aria-hidden="true">↗</span>
+            </span>
+          </button>
+        </div>
+      </section>
+
+      <section class="pricing section" id="pricing" aria-labelledby="pricing-title">
+        <div class="container pricing-layout">
+          <div class="pricing-intro" data-reveal>
+            <p class="eyebrow section-kicker">
+              <span class="section-number">06 /</span> ИНВЕСТИЦИЯ В ЗВУК
+            </p>
+            <h2 id="pricing-title">Прозрачно<br />о главном<span class="pricing-dot">.</span></h2>
+            <p>Каждый проект индивидуален.<br />Цена за релиз по договорённости.</p>
+            <div class="pricing-disclaimer"></div>
+          </div>
+          <div class="price-list" data-reveal>
+            <a class="price-row" href="#contact" data-service="recording"
+              ><div>
+                <h3>Запись вокала</h3>
+                <span>Один час / работа с голосом</span>
+              </div>
+              <div class="price-value">от 2 500 <span>₽</span><i aria-hidden="true">↗</i></div></a
+            ><a class="price-row" href="#contact" data-service="mixing"
+              ><div>
+                <h3>Сведение</h3>
+                <span>Один трек / баланс и объём</span>
+              </div>
+              <div class="price-value">от 6 000 <span>₽</span><i aria-hidden="true">↗</i></div></a
+            ><a class="price-row" href="#contact" data-service="mastering"
+              ><div>
+                <h3>Мастеринг</h3>
+                <span>Один трек / финальная подготовка</span>
+              </div>
+              <div class="price-value">от 2 000 <span>₽</span><i aria-hidden="true">↗</i></div></a
+            ><a class="price-row" href="#contact" data-service="production"
+              ><div>
+                <h3>Продакшен</h3>
+                <span>Твоя идея / полный цикл</span>
+              </div>
+              <div class="price-value price-value--custom">
+                Обсудим <i aria-hidden="true">↗</i>
+              </div></a
+            >
+            <a class="button button--dark pricing-cta" href="#contact">
+              Обсудить мой проект
+              <svg
+                class="button-icon"
+                width="22"
+                height="22"
+                viewBox="0 0 24 24"
+                fill="none"
+                aria-hidden="true"
+                focusable="false"
+              >
+                <path
+                  d="M5 19 19 5M5 5h14v14"
+                  stroke="currentColor"
+                  stroke-width="1.5"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <section class="section faq container" aria-labelledby="faq-title">
+        <div class="faq-heading" data-reveal>
+          <p class="eyebrow section-kicker">
+            <span class="section-number">07 /</span> ЕСТЬ ВОПРОСЫ?
+          </p>
+          <h2 id="faq-title">До того,<br />как нажать REC<span class="lime">.</span></h2>
+          <p class="muted">Всё, о чём обычно спрашивают<br />перед первой сессией.</p>
+          <a class="text-link" href="#contact">
+            Задать свой вопрос <span aria-hidden="true">↗</span>
+          </a>
+        </div>
+        <div class="faq-list" data-reveal>
+          <div class="faq-item">
+            <h3>
+              <button
+                class="faq-trigger"
+                type="button"
+                id="faq-q1"
+                aria-expanded="false"
+                aria-controls="faq-a1"
+              >
+                Нужно ли приходить с готовой песней?<span
+                  class="faq-icon"
+                  aria-hidden="true"
+                ></span>
+              </button>
+            </h3>
+            <div class="faq-answer" id="faq-a1" role="region" aria-labelledby="faq-q1">
+              <div class="faq-answer__inner">
+                <p>
+                  Необязательно. Можно начать с голосовой заметки, мелодии или нескольких строчек. В
+                  рамках продакшена мы вместе определим направление, поработаем над структурой и
+                  аранжировкой. Для записи готового материала достаточно демо и понимания, какой
+                  результат ты хочешь получить.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="faq-item">
+            <h3>
+              <button
+                class="faq-trigger"
+                type="button"
+                id="faq-q2"
+                aria-expanded="false"
+                aria-controls="faq-a2"
+              >
+                Можно ли записать только вокал?<span class="faq-icon" aria-hidden="true"></span>
+              </button>
+            </h3>
+            <div class="faq-answer" id="faq-a2" role="region" aria-labelledby="faq-q2">
+              <div class="faq-answer__inner">
+                <p>
+                  Да. Для отдельной вокальной сессии подготовь инструментал в WAV, текст и, если
+                  есть, демозапись. Желательно заранее знать тональность и темп. Точный список
+                  материалов обсуждается до сессии.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="faq-item">
+            <h3>
+              <button
+                class="faq-trigger"
+                type="button"
+                id="faq-q3"
+                aria-expanded="false"
+                aria-controls="faq-a3"
+              >
+                Сколько длится запись?<span class="faq-icon" aria-hidden="true"></span>
+              </button>
+            </h3>
+            <div class="faq-answer" id="faq-a3" role="region" aria-labelledby="faq-q3">
+              <div class="faq-answer__inner">
+                <p>
+                  Продолжительность зависит от материала, подготовки и числа партий. Для одного
+                  вокального трека можно ориентироваться на 2–3 часа, но это не фиксированный срок.
+                  На этапе знакомства мы оценим объём и оставим время для спокойной работы.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="faq-item">
+            <h3>
+              <button
+                class="faq-trigger"
+                type="button"
+                id="faq-q4"
+                aria-expanded="false"
+                aria-controls="faq-a4"
+              >
+                Что входит в сведение?<span class="faq-icon" aria-hidden="true"></span>
+              </button>
+            </h3>
+            <div class="faq-answer" id="faq-a4" role="region" aria-labelledby="faq-q4">
+              <div class="faq-answer__inner">
+                <p>
+                  Баланс громкости и частот, панорама, динамическая обработка и пространство. Цель —
+                  цельное звучание, которое поддерживает идею песни. Редактирование, настройка
+                  вокала и количество раундов правок обсуждаются отдельно до начала проекта.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="faq-item">
+            <h3>
+              <button
+                class="faq-trigger"
+                type="button"
+                id="faq-q5"
+                aria-expanded="false"
+                aria-controls="faq-a5"
+              >
+                Можно ли работать удалённо?<span class="faq-icon" aria-hidden="true"></span>
+              </button>
+            </h3>
+            <div class="faq-answer" id="faq-a5" role="region" aria-labelledby="faq-q5">
+              <div class="faq-answer__inner">
+                <p>
+                  Сведение, мастеринг и часть продакшена подходят для удалённого формата. Достаточно
+                  подготовить дорожки и референсы, обсудить задачу и согласовать способ обратной
+                  связи.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section contact" id="contact" aria-labelledby="contact-title">
+        <div class="container">
+          <div class="contact-top" data-reveal>
+            <p class="eyebrow section-kicker">
+              <span class="section-number">08 /</span> LET’S MAKE SOMETHING REAL
+            </p>
+            <span class="contact-top-arrow" aria-hidden="true">↙</span>
+          </div>
+          <h2 id="contact-title" data-reveal>
+            Твоя следующая песня<br />начинается <span>здесь.</span>
+          </h2>
+          <div class="contact-layout">
+            <div class="contact-copy" data-reveal>
+              <span class="contact-asterisk" aria-hidden="true">✳</span>
+              <h3>Есть идея?<br />Давай дадим ей звук.</h3>
+              <p>Расскажи, что ты хочешь создать.<br />Даже если пока это только ощущение.</p>
+              <div class="contact-demo"></div>
+            </div>
+            <form id="contact-form" class="contact-form" novalidate data-reveal>
+              <div class="form-row">
+                <div class="form-field">
+                  <label for="name">Как тебя зовут <span aria-hidden="true">*</span></label
+                  ><input
+                    id="name"
+                    name="name"
+                    type="text"
+                    placeholder="Твоё имя"
+                    autocomplete="name"
+                    required
+                    minlength="2"
+                    maxlength="80"
+                    aria-describedby="name-error"
+                  /><span class="field-error" id="name-error"></span>
+                </div>
+                <div class="form-field">
+                  <label for="email">Email <span aria-hidden="true">*</span></label
+                  ><input
+                    id="email"
+                    name="email"
+                    type="email"
+                    placeholder="you@example.com"
+                    autocomplete="email"
+                    required
+                    maxlength="254"
+                    aria-describedby="email-error"
+                  /><span class="field-error" id="email-error"></span>
+                </div>
+              </div>
+              <div class="form-field">
+                <label for="service">Над чем поработаем <span aria-hidden="true">*</span></label>
+                <div class="select-wrap">
+                  <select id="service" name="service" required aria-describedby="service-error">
+                    <option value="" disabled selected>Выбери услугу</option>
+                    <option value="recording">Запись вокала и инструментов</option>
+                    <option value="mixing">Сведение</option>
+                    <option value="mastering">Мастеринг</option>
+                    <option value="production">Музыкальный продакшен</option>
+                    <option value="other">Хочу обсудить идею</option></select
+                  ><span aria-hidden="true">⌄</span>
+                </div>
+                <span class="field-error" id="service-error"></span>
+              </div>
+              <div class="form-field">
+                <label for="message">Пара слов о проекте <span aria-hidden="true">*</span></label
+                ><textarea
+                  id="message"
+                  name="message"
+                  placeholder="Жанр, идея, настроение. С чего начнём?"
+                  rows="1"
+                  required
+                  minlength="10"
+                  maxlength="2000"
+                  aria-describedby="message-error"
+                ></textarea
+                ><span class="field-error" id="message-error"></span>
+              </div>
+              <div class="form-bottom">
+                <p>Все поля обязательны.</p>
+                <button class="button button--lime" type="submit" disabled>
+                  <span data-submit-label>Проверить заявку</span>
+                  <svg
+                    class="button-icon"
+                    width="22"
+                    height="22"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    aria-hidden="true"
+                    focusable="false"
+                  >
+                    <path
+                      d="M5 19 19 5M5 5h14v14"
+                      stroke="currentColor"
+                      stroke-width="1.5"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                  </svg>
+                </button>
+              </div>
+              <div
+                id="form-status"
+                class="form-status"
+                role="status"
+                aria-live="polite"
+                tabindex="-1"
+              ></div>
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container">
+        <div class="footer-main">
+          <a class="logo" href="#top" aria-label="SOUNDWAVE Studio — наверх">
+            <svg
+              class="brand-mark"
+              width="29"
+              height="30"
+              viewBox="0 0 29 30"
+              fill="none"
+              aria-hidden="true"
+            >
+              <path
+                d="M2 12v6M8 6v18M14.5 1v28M21 7v16M27 12v6"
+                stroke="currentColor"
+                stroke-width="3"
+              />
+            </svg>
+            <span>SOUNDWAVE<small>ЗВУК С ХАРАКТЕРОМ</small></span>
+          </a>
+          <nav aria-label="Навигация в подвале">
+            <a href="#services">Услуги</a><a href="#works">Работы</a><a href="#studio">Студия</a
+            ><a href="#pricing">Цены</a><a href="#contact">Контакты</a>
+          </nav>
+          <a class="back-top" href="#top" aria-label="Вернуться наверх">↑</a>
+        </div>
+        <div class="footer-bottom">
+          <span>© <span data-year>2026</span> SOUNDWAVE STUDIO</span
+          ><span>MADE OF SOUND & FEELING</span>
+        </div>
+      </div>
+    </footer>
+
+    <dialog class="project-dialog" id="project-dialog" aria-labelledby="project-title">
+      <button class="dialog-close" id="project-close" type="button" aria-label="Закрыть кейс">
+        ×
+      </button>
+      <div class="project-dialog__layout">
+        <img
+          id="project-art"
+          src="assets/images/cover-mera.svg"
+          alt="Обложка демонстрационного проекта"
+          width="800"
+          height="800"
+        />
+        <div class="project-dialog__copy">
+          <p class="eyebrow" id="project-genre">INDIE POP</p>
+          <h2 id="project-title">MÉRA — Между строк</h2>
+          <p id="project-description"></p>
+          <p class="eyebrow dialog-scope-label">РАБОТА НАД ЗВУКОМ</p>
+          <p id="project-scope"></p>
+          <a href="#contact" class="text-link" onclick="this.closest('dialog').close()">
+            Обсудить свою идею <span aria-hidden="true">↗</span>
+          </a>
+        </div>
+      </div>
+    </dialog>
+    <dialog class="gallery-dialog" id="gallery-dialog" aria-labelledby="gallery-caption">
+      <button class="dialog-close" id="gallery-close" type="button" aria-label="Закрыть фотографию">
+        ×</button
+      ><img
+        id="gallery-image"
+        src="assets/images/hero-studio.webp"
+        alt="Атмосфера студии"
+        width="1920"
+        height="1280"
+      />
+      <div class="gallery-dialog__bottom">
+        <p id="gallery-caption">Атмосфера студии</p>
+        <div>
+          <button id="gallery-prev" type="button" aria-label="Предыдущая фотография">←</button
+          ><button id="gallery-next" type="button" aria-label="Следующая фотография">→</button>
+        </div>
+      </div>
+    </dialog>
+  </body>
+</html>
