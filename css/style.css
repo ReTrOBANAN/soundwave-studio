@@ -110,6 +110,28 @@ img {
   height: auto;
 }
 
+.icon-definitions {
+  position: absolute;
+  width: 0;
+  height: 0;
+  overflow: hidden;
+  pointer-events: none;
+}
+
+.icon {
+  display: block;
+  width: 1em;
+  height: 1em;
+  max-width: none;
+  flex-shrink: 0;
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 1.5;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  pointer-events: none;
+}
+
 button img {
   pointer-events: none;
 }
@@ -1501,7 +1523,8 @@ h1 > span {
 .select-wrap > span {
   position: absolute;
   right: 5px;
-  top: 4px;
+  top: 50%;
+  transform: translateY(-50%);
   pointer-events: none;
   color: var(--muted);
   font-size: 20px;
@@ -1673,6 +1696,8 @@ dialog[open] {
   top: 15px;
   width: 42px;
   height: 42px;
+  display: grid;
+  place-items: center;
   background: var(--paper);
   color: var(--bg);
   font-family: Arial, sans-serif;
